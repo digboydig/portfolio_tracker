@@ -1,0 +1,16 @@
+# Core framework
+streamlit>=1.36.0
+
+# Data handling
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Financial data fetcher
+yfinance>=0.2.40
+
+# Visualization (for pie & line charts)
+plotly>=5.22.0
+
+# Timezone support (needed for Asia/Kolkata handling)
+# zoneinfo is built into Python 3.9+, but include backport for older versions
+backports.zoneinfo; python_version < "3.9"
